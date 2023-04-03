@@ -1,0 +1,160 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'custom', sans-serif;
+  background-color:#576CBC
+}
+
+@font-face {
+  font-family: 'custom';
+  src: url('AvenirNext-Medium-06.ttf');
+}
+
+
+header {
+  background-color: #6475bd;
+  color: #19376D;
+  padding: 10px;
+  font-family: 'custom', sans-serif;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  white-space: nowrap;
+  padding-left:5%;
+}
+
+.logo img {
+  height: 50px;
+  display: inline-block;
+  max-width: 100%;
+}
+
+.logo h1 {
+  margin: 0;
+  padding: 0;
+  display: inline-block;
+  font-size: 20px;
+  font-weight: bold;
+  color: inherit;
+}
+
+.pages {
+  padding-right:10%;
+  font-size:30px;
+  color:black;
+  font-weight:bold;
+}
+
+.pages a {
+  text-decoration: none;
+  margin-left: 30px;
+  padding-right: 10px;
+  color:black;
+}
+
+.content {
+  padding: 50px;
+  display: flex;
+  flex-direction: row;
+}
+
+.text {
+  flex: 1;
+  text-align:right;
+}
+
+.image1 {
+  flex: 1;
+  text-align: left;
+}
+
+.image1 img {
+  max-width: 100%;
+}
+
+p {
+  font-size: 20px;
+}
+
+#p1{
+  color: hsla(0, 0%, 0%, 0.8);
+}
+
+#p2{
+  color: hsla(0, 0%, 0%, 0.7);
+  display: inline;
+}
+
+#p3{
+  color: hsla(0, 0%, 0%, 0.6);
+}
+
+#p4{
+  color: hsla(0, 0%, 0%, 0.5);
+}
+
+#p5{
+  color: hsla(0, 0%, 0%, 0.4);
+}
+
+#p6{
+  color: hsla(0, 0%, 0%, 0.3);
+}
+
+#p7{
+  color: hsla(0, 0%, 0%, 0.2);
+}
+
+#p8{
+  color: hsla(0, 0%, 0%, 0.1);
+}
+
+#p9{
+  color: hsla(0, 0%, 0%, 0.05);
+}
+.recruitment {
+  padding-top: 5px;
+  padding-bottom:5px;
+  color: #b9bed4;
+  background-color: #44528f;
+  width:100%;
+}
+
+.blogtitle {
+  align-content: left;
+  padding: 5px;
+  padding-left: 15px;
+}
+
+.blogpost {
+  padding-left: 25px;
+  font-size: 10px;
+  font-weight: thin;
+  align-content: left;
+}
+
+footer {
+  background-color: #6475bd;
+  color: #19376D;
+  padding: 10px;
+  font-family: 'custom', sans-serif;
+  bottom: 0;
+  width: 100%;
+}
+
+#copyright {
+  font-size: 6px;
+  color: #FFFFFF;
+  text-align: center;
+}
+
+#appname {
+  font-size: 30px;
+  display: inline;
+}
