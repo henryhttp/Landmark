@@ -2,7 +2,7 @@ body {
   margin: 0;
   padding: 0;
   font-family: 'custom', sans-serif;
-  background-color:#576CBC
+  background:linear-gradient(#7585c4,#44528f)
 }
 
 @font-face {
@@ -12,7 +12,7 @@ body {
 
 
 header {
-  background-color: #6475bd;
+  background-color: #5464aa;
   color: #19376D;
   padding: 10px;
   font-family: 'custom', sans-serif;
@@ -66,16 +66,19 @@ nav {
 
 .text {
   flex: 1;
-  text-align:right;
+  justify-content:space-evenly;
 }
 
 .image1 {
+  height:90%;
+  padding: 0px;
+  display:flex;
   flex: 1;
-  text-align: left;
+  text-align: center;
 }
 
 .image1 img {
-  max-width: 100%;
+  max-width:50%;
 }
 
 p {
